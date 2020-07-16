@@ -1,3 +1,91 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
 section img {
     width: 120px;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    font-size: 20px;
+}
+
+.header ol {
+    display: flex;
+    height: inherit;
+}
+
+.header {
+    background-color: rgb(144, 226, 21);
+    color: rgb(15, 15, 15);
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.container {
+    width: 100%;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+}
+
+.container-2 {
+    height: 100px;
+    background-color: rgb(144, 226, 21);
+}
+
+.container-2 h1 {
+    font-size: 35px;
+    line-height: 100%;
+    letter-spacing: -.2px;
+    margin: 0px;
+}
+
+.container-2 p {
+    font-size: 19px;
+    color: rgb(19, 18, 18);
+}
+
+p strong {
+    color: rgb(250, 248, 250);
+}
+
+.conter {
+    display: grid;
+    grid-template-rows: 400px;
+}
+
+.anime1 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 50px;
+}
+
+.anime {
+    border: 1.5px rgb(63, 58, 58) solid;
+    background-color: rgb(245, 238, 238);
+    border-radius: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+.inf-per {
+    background-color: rgb(131, 240, 140);
+    color: black;
+    font-size: 15px;
+    padding: 1px;
+    border: 1.5px solid rgb(63, 58, 58);
 }
