@@ -113,3 +113,17 @@ p strong {
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 50px;
 }
+
+footer {
+    background-color: #1c1f22;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer a {
+    color: rgb(60, 228, 144);
+    text-decoration: none;
+    font-family: Arial;
+}
